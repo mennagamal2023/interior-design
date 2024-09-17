@@ -1,0 +1,378 @@
+/* 1- COMMON STYLES
+2- SECTIONS  
+    2.1  HEADER
+    2.2  HOME SECTION 
+    2.3  Our SERVICE SECTION 
+    2.4  Learn More SECTION .
+    2.5  Steps SECTION .
+    2.6  About Us SECTION .
+    2.7  Footer SECTION . 
+*/
+/* 1-common styles ////////////////////////////////////////// */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none; 
+}
+.container{
+    width: 80%;
+    margin:auto;
+}
+.body{
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    background: rgba(255, 255, 255, 1);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    overflow-x: hidden;
+}
+/* 2.1  HEADER /////////////////////////////////////////////////////// */
+.nav-btn{
+    padding: 10px 40px;
+}
+.nav-item a{
+   color: rgba(84, 84, 84, 1);
+   margin-left: 20px;
+   font-weight: 500;
+   font-size: 1.2rem;
+}
+.active{
+    color: rgba(31, 31, 31, 1);
+}
+/*2.2  HOME SECTION //////////////////////////////////////////////// */
+.home{
+    min-height: 100vh; 
+}
+.home-item-h{
+    color:  rgba(31, 31, 31, 1);
+    font-size: 93px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+.home-item-p{
+    font-size: 1.3rem;
+    line-height: 42px;
+    color: rgba(84, 84, 84, 1);
+
+}
+.home-content2{
+    position: relative;  
+}
+.home-content2-div{
+    color: rgba(84, 84, 84, 1);
+    font-weight: 400;
+    position: absolute;
+    top:160px;
+}
+.home-content2-btn{
+    padding: 16px 58px;
+    border: none;
+    background: rgba(31, 31, 31, 1);
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top:-15px ;
+    left: 10px;
+}
+.home-content2-div span{
+    font-weight: 400;
+    color: rgba(84, 84, 84, 1);
+    font-size: larger;
+}
+.home-item{
+    position: relative;
+}
+.home-item-div{
+    position: relative;
+    border: 2px solid rgba(31, 31, 31, 1);
+    width: 161px;
+    height: 145px;
+    left:-90px;
+    top: -45px;
+    z-index: 1;
+}
+.home-item-img{
+    width: 465px;
+    height: 330px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+.home-item-btn{
+    position: absolute;
+    z-index: 3;
+    width: 80px;
+    height: 80px;
+    background: rgba(31, 31, 31, 1);
+    left: 390px;
+    top: 226px;
+}
+.home-item-btn img{
+    height: 30px;
+}
+/* 2.3  Our SERVICE SECTION  //////////////////////////////////////////////// */
+.Our-services{
+    margin: 140px 0;
+}
+.Our-services-header .line{
+    width: 62px;
+    height: 2px;
+    background: rgba(31, 31, 31, 1);
+    margin-top: 25px;  
+}
+.Our-services-p{
+    color: rgba(84, 84, 84, 1);
+    font-size: 18px;
+}
+/* 2.4  Learn More SECTION ////////////////////////////////////////////// */
+.learn-more-content {
+    margin: 50px 0;
+}
+.learn-more-item img{
+    height:500px;
+    width:500px;
+}
+.learn-more-p{
+    color: rgba(84, 84, 84, 1);
+}
+.accordion-button{
+    background-color: rgba(31, 31, 31, 1);
+    color:rgba(255, 255, 255, 1);
+}
+.lmi{
+    position: relative;
+}
+.learn-more-btn{
+    padding: 14px 48px;
+    border: none;
+    background: rgba(31, 31, 31, 1);
+    color:rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+/* 2.5  Steps SECTION ////////////////////////////////////////////////// */
+.steps-content{
+    margin: 120px 0;
+}
+.steps-i{
+    color: rgba(31, 31, 31, 1);
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+.steps-h2{
+    font-weight: 700;
+    font-size: 23px;
+}
+.steps-p{
+    font-size: 22px;
+    color: rgba(84, 84, 84, 1);
+}
+.steps-item img{
+    height:620px;
+    width:550px;
+}
+/* 2.6  About Us SECTION ////////////////////////////////////////////// */
+.about-us-item{
+    position: relative;
+} 
+.about-us-img{
+    position: relative;
+    width: 530px;
+    height: 530px;
+}
+.overlay{
+    width: 440px;
+    height: 440px;
+    background: rgba(31, 31, 31, 1);
+    position: absolute;
+    left: 200px;
+    top: 160px;
+    z-index: 1;
+}
+.overlay1{
+    width: 440px;
+    height: 440px;
+    background: rgba(31, 31, 31, 1);
+    margin-top: 45px;
+    margin-left: 110px;
+}
+.about-us-btn{
+    position: absolute;
+    left: 12px;
+    bottom: 0;  
+}
+.about-us-btn button{
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.back-btn{
+margin-left: 15px;
+}
+.about-us-info{
+    margin-top: 55px;
+}
+.overlay-p{
+    font-size: 21px;
+    color:rgba(255, 255, 255, 1);
+}
+.about-us-review{
+    margin-left: 20px;
+}
+.about-us-review h5{
+    color:rgba(255, 255, 255, 1);
+}
+.about-us-review span{
+    color: rgba(84, 84, 84, 1);
+}
+/* 2.7  subscrib SECTION ////////////////////////////////////////////////*/
+.subscribe-content{
+    margin: 150px 0 50px 0;
+    text-align: center;
+}
+.subscribe-item{
+    position: relative;
+    top: 80px;
+}
+.subscribe-content-p{
+    font-size: 19px;
+    color: rgba(84, 84, 84, 1);
+}
+.subscribe-input{
+    width: 600px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 2px;
+}
+.subscribe-input:placeholder-shown{
+   padding-left: 50px;
+}
+.subscribe-btn{
+    border: none;
+    background: rgba(31, 31, 31, 1);
+    color:rgba(255, 255, 255, 1);
+    border-radius: 3px;
+    padding: 12px 45px;
+    position: absolute;
+    left: 665px;
+    top: 6px;
+}
+/* 2.8  Footer SECTION ////////////////////////////////////////////////*/
+.footer{
+    height: 300px;
+    background-color: rgb(29, 29, 29);
+}
+.footer-img{
+    background-color: rgba(255, 255, 255, 1);
+}
+.footer-p {
+    color: rgba(209, 209, 209, 1);
+    font-size: 1rem;
+
+}
+
+.col ul li{
+    color: rgba(209, 209, 209, 1);
+}
+.iii{
+    font-weight: 500;
+    font-size: 20px;
+    color:rgba(255, 255, 255, 1);
+
+}
+.Footer-item4 p{
+    color: rgba(209, 209, 209, 1);
+    
+}
+.Footer-item4-p{
+    font-size: 1rem;
+}
+/* responsive //////////////////////////////////////////////// */
+@media(max-width :768px){
+    
+    .home-item{
+       top: 300px;
+    }
+    .home-item-div{
+        left:20px;
+    }
+    .home-item-img{
+        width: 400px;
+        left: 25px;
+        top: 25px;
+    }
+    .home-item-btn{
+        
+        width: 80px;
+        height: 80px;
+        left: 380px;
+        top: 278px;
+}
+/* ///////////////////////////////////////// */
+.Our-services{
+    margin: 600px 0 120px;
+}
+/* ///////////////////////////////////// */
+.learn-more-item img{
+    height:400px;
+    width:400px;
+    margin-bottom: 30px;
+
+}
+/* ///////////////////////////////// */
+.steps-item img{
+    height:520px;
+    width:450px;
+    margin-top: 30px;
+}
+/* /////////////////////////////////// */
+.about-us-img{
+    width: 420px;
+    height: 420px;
+}
+.overlay{
+    width: 300px;
+    height: 350px;
+    left: 160px;
+    top: 125px;
+}
+.overlay1{
+    width: 300px;
+    height: 350px;
+    margin-top: 500px;
+    margin-left: 150px;
+}
+.overlay-p{
+    font-size: 13px;
+}
+.about-us-header{
+    margin-top:-500px ;
+    font-size: 15px;
+}
+.about-us-btn{
+    visibility: hidden;
+}
+/* /////////////////////////////// */
+.subscribe-input{
+    width: 300px;
+    height: 60px;
+}
+.subscribe-input:placeholder-shown{
+   padding-left: 10px;
+}
+.subscribe-btn{
+    padding: 5px 10px;
+    left: 250px;
+    top: 20px;
+}
+/* 2.8  Footer SECTION ////////////////////////////////////////////////*/
+.footer{
+    height: 600px;
+}
+}
